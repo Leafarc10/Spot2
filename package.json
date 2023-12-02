@@ -1,0 +1,23 @@
+{
+  "name": "challenge_spot2",
+  "version": "1.0.0",
+  "description": "Proyecto de Automatizacion de pruebas modelo, para challenge Spot2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework"
+  ],
+  "author": "Leafar Cuellar",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.0",
+    "esbuild": "^0.19.8"
+  }
+}
